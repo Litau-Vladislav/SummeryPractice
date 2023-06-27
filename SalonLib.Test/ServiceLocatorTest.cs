@@ -10,7 +10,6 @@ public class ServiceLocatorTest
         var actual = SalonLib.ServiceLocator.GetService("Писать статьи");
         Assert.Equal(expected, actual);
     }
-}
     [Fact]
     public void Service1Test()
     {
